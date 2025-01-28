@@ -1,0 +1,135 @@
+body{
+  font-size: 30px;
+  background:#490836;
+  background: linear-gradient(-90deg,#490836,#490836 50%, rgba(24,15,2,1) 71%);
+  background-size:contain;
+  box-shadow: 0 0 10px rgba(22, 195, 195, 0.1);
+}
+@keyframes scaleAnimation {
+0% { transform: scale(1); }
+50% { transform: scale(1.2); }
+100% { transform: scale(1); }
+}
+
+.btn {
+animation: scaleAnimation 2s infinite;
+/* Additional button styles */
+}
+
+.smaller-image {
+max-width: 300%; /* Set a maximum width for the image */
+height: auto; /* Maintain aspect ratio */
+max-height: 100px; /* Set a maximum height for the image */
+}
+
+
+
+  .moving-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1; /* Place it behind the content */
+  }
+
+  @keyframes moveBackground {
+      0% { background-position: 0 0; }
+      100% { background-position: 100% 0; }
+  }
+
+  /* Additional styles for content */
+  .content {
+      padding: 20px;
+  }
+
+  .navbar{
+    background: #490836;
+    background: linear-gradient(-90deg,#490836, black);
+  }
+
+  .btn{
+      background-color: #9f1676;
+      color: white;
+      font-style: italic;
+  }
+
+  .btn1{
+      background-color: #a51c7c;
+      margin-left: 100px;
+  }
+  #change-text{
+    color:#a51c7c;
+  }
+  .custom-border {
+border: 1px solid black; /* Specify the border width and style */
+background: linear-gradient(-45deg,#490836, black);
+
+}
+.container-1{
+border: solid white;
+font-size: 20px;
+background: linear-gradient(-45deg, #490836, black);
+}
+
+.container-2{
+border: solid white;
+font-size: 20px;
+background: linear-gradient(-45deg,#490836, black);
+}
+.container-3{
+border: solid white;
+font-size: 20px;
+background: linear-gradient(-45deg,#490836, black);
+}
+h4{
+color:#490836 ;
+}
+
+.text-center1{
+background: linear-gradient(-45deg,#490836, black);
+}
+.Login{
+border: solid;
+}
+
+.social-icons {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+
+  .social-icons a {
+      margin-left: 10px; /* Adjust the margin between logos */
+  }
+
+  .social-icons img {
+      width: 50px; /* Set the desired width for your logos */
+      height: 50px; /* Set the desired height for your logos */
+      border-radius: 50%; /* Make the logos circular (optional) */
+  }
+
+.logo{
+background-color:#490836 ;
+width: 100%;
+}
+
+h3{
+background: linear-gradient(-45deg, #490836, black);
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  width:50px;
+  margin-right: 0px;
+  margin-left: 500px;
+}
+.button{
+  padding-bottom: 20px; /* Adjust this value to set the desired space within elements */
+  padding: 10px;
+  border: 1px solid #ccc;
+  padding: 10px; /* Adjust padding as needed */
+  margin-right: 20px; /* Adjust margin as needed to set the desired space between elements */
+  border: 1px solid #ccc;
+}
+
